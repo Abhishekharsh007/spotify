@@ -3,10 +3,10 @@ import { Figtree } from 'next/font/google';
 import "./globals.css";
 
 const figtree = Figtree({
-  variable: '--font-figtree',
-  subsets: ['latin'],
-  weight: ['400', '500', '700', '900'],
-  display: 'swap',
+  variable: "--font-figtree",
+  subsets: ["latin"],
+  weight: ["400", "500", "700", "900"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
